@@ -3,7 +3,7 @@
     <div class="columns">
       <div class="column">
         <h3>{{ section.headline }}</h3>
-        <div>{{ section.content }}</div>
+        <div>{{ section.content | markdownify }}</div>
       </div>        
     </div>
   </div>

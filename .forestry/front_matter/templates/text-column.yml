@@ -1,4 +1,5 @@
 ---
+label: Text column
 hide_body: false
 is_partial: true
 fields:
@@ -11,4 +12,4 @@ fields:
   config:
     wysiwyg: true
     schema:
-      format: html
+      format: markdown
